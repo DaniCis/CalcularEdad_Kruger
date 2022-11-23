@@ -1,38 +1,38 @@
-.App {
+.header{
+  background-color: rgb(198, 198, 198);
+  display: flex;
+  justify-content: center;
+}
+.card{
+  background-color: gray;
+  border-radius: 15%;
+  width: 100px;
+  height: 100px;
+  color:white;
   text-align: center;
+  margin: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-numero{
+  font-weight: bold;
+  font-size: larger;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-texto{
+  text-transform: uppercase;
+  padding:0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contenedor{
   display: flex;
   flex-direction: column;
+  align-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.contenedorFecha{
+  background-color: gray;
+  border-radius: 5%;
+  padding: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contenedorEdad{
+  display: flex;
+  flex-direction: row;
 }
