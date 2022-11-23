@@ -34,7 +34,6 @@ const Edad = () =>{
                 setYear(actualYear - year - 1)
                 setDay((actualDay - day)+30)
                 setMonth((actualmonth - month)+11)
-                console.log('aqui')
             }   
             else{
                 setMonth(actualmonth -month)
