@@ -30,7 +30,7 @@ const Edad = () =>{
                 setDay(actualDay - day)
             }
         }else{
-            if(month === actualmonth && day > actualDay){
+            if(month == actualmonth && day > actualDay){
                 setYear(actualYear - year - 1)
                 setDay((actualDay - day)+31)
                 setMonth((actualmonth - month)+11)
@@ -38,10 +38,9 @@ const Edad = () =>{
             else{
                 setMonth(actualmonth -month)
                 setYear(actualYear - year)
-                setDay(actualDay - day -1)
+                setDay(actualDay - day)
             }
         }
-            
     }
 
     return (
