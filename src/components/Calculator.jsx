@@ -29,8 +29,8 @@ const Calculator = () =>{
         //meses
         if(bornMonth > actualmonth)
             setMonth(actualmonth - bornMonth + 12)
-        else if(bornMonth == actualmonth && bornDay > actualDay){
-            if(bornMonth - actualmonth == 0)//no cumple aun
+        else if(bornMonth == actualmonth){
+            if(bornDay > actualDay)//no cumple aun
                 setMonth(11)
             else 
                 setMonth(0)
