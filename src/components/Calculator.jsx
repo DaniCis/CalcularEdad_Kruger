@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Card from "./Card";
 
-const Edad = () =>{
+const Calculator = () =>{
     const [fechaNacimiento,setFecha] = useState();
     const [day,setDay] = useState(0);
     const [month,setMonth] = useState(0);
@@ -69,4 +69,4 @@ const Edad = () =>{
     )
 }
 
-export default Edad;
+export default Calculator;
